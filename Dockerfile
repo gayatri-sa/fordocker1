@@ -3,4 +3,4 @@ MAINTAINER Gayatri S Ajith <gayatri@schogini.com>
 
 RUN apt-get update && apt-get install -y nano curl
 RUN docker-php-ext-install mysqli && docker-php-ext-install pdo_mysql
-RUN echo "Hello World!"
+RUN echo "Hello World! A New Day, A New File!"
